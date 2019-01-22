@@ -1,0 +1,99 @@
+* {
+  font-family: 'Alice', serif;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+nav {
+ text-align: center;
+ width: 100%;
+}
+nav ul {
+ padding: 0;
+ margin: 0;
+}
+nav ul li {
+ display: inline-block;
+ list-style-type: none;
+ margin: 0;
+ padding: 10px 0;
+}
+
+.body {
+  background-image: linear-gradient(to bottom right, Wheat, NavajoWhite, BurlyWood);
+}
+
+.footer {
+  text-align: center;
+}
+
+.info {
+  font-size: 40px;
+  text-align: center;
+}
+
+.infotext {
+  font-size:30px;
+}
+
+table {
+  display: inline-table;
+  margin: 60px;
+  padding: 10px;
+}
+
+.infopic {
+  border-style: ridge;
+  border-width: 10px;
+  border-color: goldenrod;
+}
+
+h2 {
+  font-size: 30px;
+  color: gold;
+  -webkit-text-stroke: .05px black;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 30px;
+}
+
+li:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: green;
+}
